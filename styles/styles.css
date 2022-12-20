@@ -739,7 +739,7 @@ section {
     padding: 0;
   }
   header .right-header {
-    padding: 0 !important;
+    padding: 2rem !important;
   }
   .theme-btn {
     width: 50px;
@@ -759,6 +759,9 @@ section {
   }
   .right-header .name {
     font-size: 2.5rem !important;
+  }
+  .header-content .left-header .image {
+    margin: 0 auto;
   }
   .section {
     padding: 2rem 2.5rem !important;
