@@ -780,8 +780,6 @@ section {
   .section {
     padding: 7rem 6rem;
   }
-}
-@media screen and (max-width: 600px) {
   header {
     padding: 0;
   }
@@ -811,6 +809,34 @@ section {
     margin: 0 auto !important;
     width: 90%;
   }
+  .controls {
+    position: fixed;
+    top: auto;
+    bottom: 0;
+    flex-direction: row;
+    justify-content: center;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    background-color: var(--color-grey-5);
+  }
+  .controls .control {
+    margin: 1rem 0.3rem;
+  }
+}
+@media screen and (max-width: 700px) {
+  .section {
+    padding: 7rem 3rem;
+  }
+  .timeline {
+    grid-template-columns: 1fr;
+    padding-left: 2rem;
+  }
+  .about-stats .progress-bars {
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 600px) {
   .section {
     padding: 2rem 2.5rem !important;
   }
@@ -826,13 +852,6 @@ section {
   }
   .about-container .left-about p {
     padding-left: 0;
-  }
-  .timeline {
-    grid-template-columns: 1fr;
-    padding: 6rem;
-  }
-  .about-stats .progress-bars {
-    grid-template-columns: 1fr;
   }
   .portfolios {
     grid-template-columns: 1fr;
@@ -867,19 +886,5 @@ section {
   }
   .main-title h2 .bg-text {
     font-size: 3rem;
-  }
-  .controls {
-    position: fixed;
-    top: auto;
-    bottom: 0;
-    flex-direction: row;
-    justify-content: center;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100%;
-    background-color: var(--color-grey-5);
-  }
-  .controls .control {
-    margin: 1rem 0.3rem;
   }
 }/*# sourceMappingURL=styles.css.map */
