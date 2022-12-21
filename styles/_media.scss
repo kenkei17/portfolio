@@ -7,7 +7,7 @@
         padding: 0;
     }
     header .right-header{
-        padding: 0!important;
+        padding: 0 !important;
     }
     .theme-btn{
         width: 50px;
@@ -32,8 +32,10 @@
         }
     }
     .header-content .left-header .image{
+        margin: 0 auto !important;
+        width: 90%;
         
-        margin: 3rem auto 0 auto;
+        
     }
     .section{
         padding: 2rem 2.5rem !important;
